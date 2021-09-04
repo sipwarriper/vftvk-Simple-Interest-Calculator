@@ -30,7 +30,7 @@ function compute()
 
     //Show the result
     let result = document.getElementById("result");
-    result.innerHTML = "If you deposit \<b\>" + principal.toString() + "\</b\>,\<br\>at an interest rate of \<b\>"+ rate.toString() + "%\</b\>.\<br\>You will receive an amount of \<b\>"+ interest.toString() + "\</b\>,\<br\>in the year \<b\>"+ year.toString()+"\<b/\>\<br\>"
+    result.innerHTML = "If you deposit <mark>" + principal.toString() + "</mark>,\<br\>at an interest rate of <mark>"+ rate.toString() + "%</mark>.\<br\>You will receive an amount of <mark>"+ interest.toString() + "</mark>,\<br\>in the year <mark>"+ year.toString()+"\<b/\>\<br\>"
 }
 
 function updateRate() 
