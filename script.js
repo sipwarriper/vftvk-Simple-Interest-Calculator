@@ -38,4 +38,12 @@ function updateRate()
     let rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval.toString()+"%";
 }
+
+function reset()
+{
+    document.getElementById("principal").value = 100000;
+    document.getElementById("rate").value = 10.25;
+    updateRate();
+    document.getElementById("years").value = 1;
+}
         
